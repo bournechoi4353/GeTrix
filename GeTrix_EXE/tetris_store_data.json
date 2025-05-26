@@ -1,0 +1,416 @@
+{
+    "line_chips": 330,
+    "owned_skins": [
+        "default",
+        "gradient",
+        "sparkle",
+        "pastel",
+        "metallic",
+        "matte",
+        "glossy",
+        "retro"
+    ],
+    "active_skin": "sparkle",
+    "available_skins": {
+        "default": {
+            "name": "Default",
+            "type": "basic",
+            "price": 0,
+            "description": "The classic Tetris blocks",
+            "owned": true,
+            "colors": [
+                [
+                    0,
+                    255,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    255
+                ],
+                [
+                    255,
+                    165,
+                    0
+                ],
+                [
+                    255,
+                    255,
+                    0
+                ],
+                [
+                    0,
+                    255,
+                    0
+                ],
+                [
+                    128,
+                    0,
+                    128
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "glossy": {
+            "name": "Glossy",
+            "type": "basic",
+            "price": 15,
+            "description": "Shiny, reflective blocks",
+            "owned": true,
+            "colors": [
+                [
+                    100,
+                    255,
+                    255
+                ],
+                [
+                    100,
+                    100,
+                    255
+                ],
+                [
+                    255,
+                    200,
+                    100
+                ],
+                [
+                    255,
+                    255,
+                    100
+                ],
+                [
+                    100,
+                    255,
+                    100
+                ],
+                [
+                    200,
+                    100,
+                    200
+                ],
+                [
+                    255,
+                    100,
+                    100
+                ]
+            ]
+        },
+        "matte": {
+            "name": "Matte",
+            "type": "basic",
+            "price": 15,
+            "description": "Smooth, non-reflective blocks",
+            "owned": true,
+            "colors": [
+                [
+                    0,
+                    200,
+                    200
+                ],
+                [
+                    0,
+                    0,
+                    200
+                ],
+                [
+                    200,
+                    120,
+                    0
+                ],
+                [
+                    200,
+                    200,
+                    0
+                ],
+                [
+                    0,
+                    200,
+                    0
+                ],
+                [
+                    100,
+                    0,
+                    100
+                ],
+                [
+                    200,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "neon": {
+            "name": "Neon",
+            "type": "basic",
+            "price": 15,
+            "description": "Bright, glowing blocks",
+            "owned": false,
+            "colors": [
+                [
+                    0,
+                    255,
+                    255
+                ],
+                [
+                    80,
+                    80,
+                    255
+                ],
+                [
+                    255,
+                    180,
+                    0
+                ],
+                [
+                    255,
+                    255,
+                    0
+                ],
+                [
+                    0,
+                    255,
+                    80
+                ],
+                [
+                    255,
+                    0,
+                    255
+                ],
+                [
+                    255,
+                    0,
+                    80
+                ]
+            ]
+        },
+        "retro": {
+            "name": "Retro",
+            "type": "basic",
+            "price": 15,
+            "description": "Old-school pixelated blocks",
+            "owned": true,
+            "colors": [
+                [
+                    0,
+                    170,
+                    170
+                ],
+                [
+                    0,
+                    0,
+                    170
+                ],
+                [
+                    170,
+                    85,
+                    0
+                ],
+                [
+                    170,
+                    170,
+                    0
+                ],
+                [
+                    0,
+                    170,
+                    0
+                ],
+                [
+                    170,
+                    0,
+                    170
+                ],
+                [
+                    170,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "gradient": {
+            "name": "Gradient",
+            "type": "special",
+            "price": 30,
+            "description": "Blocks with smooth gradient effect",
+            "owned": true,
+            "effect": "gradient",
+            "colors": [
+                [
+                    0,
+                    255,
+                    255
+                ],
+                [
+                    0,
+                    0,
+                    255
+                ],
+                [
+                    255,
+                    165,
+                    0
+                ],
+                [
+                    255,
+                    255,
+                    0
+                ],
+                [
+                    0,
+                    255,
+                    0
+                ],
+                [
+                    128,
+                    0,
+                    128
+                ],
+                [
+                    255,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "sparkle": {
+            "name": "Sparkle",
+            "type": "special",
+            "price": 30,
+            "description": "Blocks with sparkling effect",
+            "owned": true,
+            "effect": "sparkle",
+            "colors": [
+                [
+                    0,
+                    200,
+                    200
+                ],
+                [
+                    0,
+                    0,
+                    200
+                ],
+                [
+                    200,
+                    130,
+                    0
+                ],
+                [
+                    200,
+                    200,
+                    0
+                ],
+                [
+                    0,
+                    200,
+                    0
+                ],
+                [
+                    100,
+                    0,
+                    100
+                ],
+                [
+                    200,
+                    0,
+                    0
+                ]
+            ]
+        },
+        "pastel": {
+            "name": "Pastel",
+            "type": "special",
+            "price": 30,
+            "description": "Soft pastel colored blocks",
+            "owned": true,
+            "effect": "gradient",
+            "colors": [
+                [
+                    173,
+                    216,
+                    230
+                ],
+                [
+                    173,
+                    216,
+                    255
+                ],
+                [
+                    255,
+                    218,
+                    185
+                ],
+                [
+                    255,
+                    255,
+                    224
+                ],
+                [
+                    144,
+                    238,
+                    144
+                ],
+                [
+                    221,
+                    160,
+                    221
+                ],
+                [
+                    255,
+                    182,
+                    193
+                ]
+            ]
+        },
+        "metallic": {
+            "name": "Metallic",
+            "type": "special",
+            "price": 30,
+            "description": "Shiny metallic blocks",
+            "owned": true,
+            "effect": "gradient",
+            "colors": [
+                [
+                    176,
+                    196,
+                    222
+                ],
+                [
+                    70,
+                    130,
+                    180
+                ],
+                [
+                    184,
+                    134,
+                    11
+                ],
+                [
+                    218,
+                    165,
+                    32
+                ],
+                [
+                    46,
+                    139,
+                    87
+                ],
+                [
+                    139,
+                    0,
+                    139
+                ],
+                [
+                    178,
+                    34,
+                    34
+                ]
+            ]
+        }
+    }
+}

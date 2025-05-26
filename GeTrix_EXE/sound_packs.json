@@ -1,0 +1,25 @@
+{
+    "active_pack": "default",
+    "packs": {
+        "default": {
+            "name": "Default Sounds",
+            "description": "The default sound effects for the game",
+            "sounds": {
+                "block_land": "default",
+                "line_clear": "default",
+                "level_up": "default",
+                "game_over": "default"
+            }
+        },
+        "simple_sounds": {
+            "name": "Simple Sounds",
+            "description": "A simple sound pack for testing",
+            "sounds": {
+                "block_land": "simple_sounds/block_land.wav",
+                "line_clear": "simple_sounds/line_clear.wav",
+                "level_up": "simple_sounds/level_up.wav",
+                "game_over": "simple_sounds/game_over.wav"
+            }
+        }
+    }
+}

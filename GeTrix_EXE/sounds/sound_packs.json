@@ -1,0 +1,15 @@
+{
+    "active_pack": "default",
+    "packs": {
+        "default": {
+            "name": "Default Sounds",
+            "description": "The default sound effects for the game",
+            "sounds": {
+                "block_land": "default",
+                "line_clear": "default",
+                "level_up": "default",
+                "game_over": "default"
+            }
+        }
+    }
+}
